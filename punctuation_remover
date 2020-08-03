@@ -1,0 +1,8 @@
+punctuation='''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+text=input("Enter your text to remove punctuation: ")
+analyze=""
+for char in text:
+    if char not in punctuation:
+        analyze+=char
+
+print(analyze)
