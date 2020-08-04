@@ -1,0 +1,9 @@
+#extra space remover
+
+text="this is  extra     sapce remover   ."
+print("your actual text: ",text)
+analyzed=""
+for index, char in enumerate(text):
+    if not(text[index]==" "and text[index+1]==" "):
+        analyzed+=char
+print(analyzed)
