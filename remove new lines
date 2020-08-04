@@ -1,0 +1,9 @@
+text="""hi hello
+this is multiline string
+"""
+analyzed=""
+for char in text:
+    if char!="\n":
+        analyzed+=char
+
+print(analyzed)
