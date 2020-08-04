@@ -1,0 +1,7 @@
+text="""hi hello
+this is multiline string in upper case
+"""
+analyzed=""
+for char in text:
+    analyzed+=char.upper()
+print(analyzed)
